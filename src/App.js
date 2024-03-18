@@ -1,8 +1,9 @@
-
+import Filter from "./filter";
 function App() {
+  const dropDownData=["Date of registration","Vendor score","Rating"]
   return (
     <div>
-      <h1>Hello Web</h1>
+      <Filter data={dropDownData}/>
     </div>
   );
 }
